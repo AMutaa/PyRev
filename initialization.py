@@ -36,3 +36,10 @@ def feetToInches(users_feet):
 def inchesToMeters(users_feet, users_inches):
     total_user_height = ((feetToInches(users_feet) + users_inches) * one_meter)
     return total_user_height
+
+# BMI CALCULATOR
+
+
+def bmiCalc(weight, height):
+    user_bmi = weight/height
+    return user_bmi
